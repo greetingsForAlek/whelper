@@ -9,7 +9,7 @@
 
 import sys
 
-file = open('wordlelist', 'r')
+file = open('wordlelist.txt', 'r') #make sure to use wordlelist.txt if your wordlelist is a .txt file. this threw errors for me so that's why i forked this.
 read_data = file.read()
 word_list = read_data.split() #All of the words in the word list file are put into word_list
 
