@@ -71,6 +71,6 @@ for w in word_list: # Go through every word in the word list
 #Print the green_letters list for debug if necessary
 #print(f"Green letters list: {green_letters}")
 print(f"Possible words: {result_list}")
+print(f"Possible {len(result_list)} words of {len(word_list)} total words.")
 file.close()
-
 
